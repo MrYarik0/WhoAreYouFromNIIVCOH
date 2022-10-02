@@ -1,3 +1,16 @@
 .nameOfTest{
     text-align: center;
 }
+
+.questions-div{
+    padding-left: 30%;
+}
+
+.question-label{
+    font-size: x-large;
+}
+
+.question-h3{
+    padding-top: 3%;
+    padding-left: 33%;
+}
