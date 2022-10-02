@@ -79,7 +79,8 @@ let questions = [
         "answers" : {
             "Лето" : ["mor", "rya", "tar"],
             "Зима" : ["dra", "pob"],
-            "Осень" : ["mir"]
+            "Осень" : ["mir"],
+            "Весна" : []
         }
     }
 ]
@@ -108,12 +109,16 @@ let answer_handl_compile = Handlebars.compile(answer_handl)
 let question_name = document.querySelector(".question-h3")
 let question_div = document.querySelector(".questions-div")
 
+function random(min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min
+}
+
 function end(){
     let mTeacher = ""
     let max = -1;
 
     for(let i in scores){
-        if(scores[i] > max){
+        if(scores[i] > max || (scores[i] === max && random(0, 2) === 0)){
             max = scores[i]
             mTeacher = i
         }
