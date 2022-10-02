@@ -198,8 +198,9 @@ function reload(){
             console.log(scores)
             level++;
 
+            question_div.innerHTML=""
+
             if(level > questions.length){
-                question_div.innerHTML=""
                 end()
             }else{
                 reload()
