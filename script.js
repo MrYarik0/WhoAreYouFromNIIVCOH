@@ -200,7 +200,7 @@ function reload(){
 
             question_div.innerHTML=""
 
-            if(level > questions.length){
+            if(level >= questions.length){
                 end()
             }else{
                 reload()
