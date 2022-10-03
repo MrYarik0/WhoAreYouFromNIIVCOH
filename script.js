@@ -128,25 +128,25 @@ function end(){
 
     switch (mTeacher){
         case "mor":
-            teacher = "Моручков"
+            teacher = "Моручков Антон Александрович"
             break;
         case "kub":
-            teacher = "Кубрик"
+            teacher = "Кубрик Алексей Анатольевич"
             break;
         case "dra":
-            teacher = "Драконов"
+            teacher = "Дракунов Анатолий Петрович"
             break;
         case "mir":
-            teacher = "Мирецкая"
+            teacher = "Мирецкая Елена Витольдовна"
             break;
         case "rya":
-            teacher = "Рябов"
+            teacher = "Рябов Артем Владимирович"
             break;
         case "tar":
-            teacher = "Тарантина"
+            teacher = "Тарантина Александра Сергеевна"
             break;
         case "pob":
-            teacher = "Подкопаев"
+            teacher = "Подкопаев Денис Сергеевич"
             break;
         case "gal":
             teacher = "Галицкий"
